@@ -1,4 +1,4 @@
-/* Style for body */
+
 body {
     background-color: #f0f0f0;
     display: flex;
@@ -8,7 +8,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Profile Card Container */
+
 .profile-card {
     background-color: #ffffff;
     padding: 30px;
@@ -19,28 +19,28 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-/* Hover Effect */
+
 .profile-card:hover {
     transform: scale(1.05);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
-/* Profile Image */
+
 .profile-card img {
     width: 120px;
     height: 120px;
     object-fit: cover;
-    border-radius: 50%; /* Makes the image circular */
+    border-radius: 50%; 
     margin-bottom: 15px;
 }
 
-/* Name */
+
 .profile-card h2 {
     margin: 10px 0 5px;
     color: #333;
 }
 
-/* Job Title */
+
 .profile-card p {
     margin: 0;
     font-size: 16px;
